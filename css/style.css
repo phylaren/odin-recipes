@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    --main-color: rgb(230, 199, 159);
+}
+
+h1 {
+    background-color: var(--main-color);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    box-sizing: border-box;
+    display: block;
+    justify-self: center;
+    width: 160px;
+    height: auto;
+    background-color: burlywood;
+    padding: 20px;
+    margin-right: 2vw;
+    text-align: center;
+
+    box-shadow: 5px 5px 10px black;
+    transition: box-shadow 0.7s;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+li:hover {
+    box-shadow: 2px 2px 5px black;
+    transition: box-shadow 0.7s;
+}
